@@ -74,6 +74,7 @@ p {
     justify-content: center;
     height: 100vh;
     padding: 2em;
+    display: none;
 }
 
 #success h2 {
@@ -90,11 +91,6 @@ p {
 #success button {
     margin-top: 10rem;
     margin-bottom: 0;
-}
-
-
-#main-content {
-    display: none;
 }
 
 .errorEmail {
