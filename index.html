@@ -24,10 +24,11 @@
       <!-- Sign-up form start -->
 
       <div id="main-content">
-        <img
-          src="./assets/images/illustration-sign-up-mobile.svg"
-          alt="Illustration"
-        />
+        <picture>
+          <source media="(min-width: 575px)" srcset="./assets/images/illustration-sign-up-desktop.svg">
+          <source media="(min-width: 300px)" srcset="./assets/images/illustration-sign-up-mobile.svg">
+          <img src="./assets/images/illustration-sign-up-mobile.svg" alt="Sign up default image">
+        </picture>
 
         <div class="container">
           <h1 class="title">Stay updated!</h1>
